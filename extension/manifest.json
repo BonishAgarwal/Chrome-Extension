@@ -1,0 +1,21 @@
+{
+    "name":"Bonish-Web Ingestion",
+    "description":"Web Upload into your Workspace",
+    "version":"1.0",
+    "manifest_version":3,
+    "permissions": [
+        "activeTab", 
+        "scripting", 
+        "tabs", 
+        "storage", 
+        "downloads"
+    ],
+    "host_permissions": ["https://*/*", "http://*/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"unnamed-removebg-preview.png"
+    }
+}
