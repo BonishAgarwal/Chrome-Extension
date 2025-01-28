@@ -30,8 +30,9 @@ attrs==23.1.0
 Authlib==1.2.1
 Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
 autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
+azure-ai-documentintelligence==1.0.0
 azure-common==1.1.28
-azure-core==1.29.5
+azure-core==1.32.0
 azure-identity==1.15.0
 azure-keyvault==4.2.0
 azure-keyvault-certificates==4.7.0
@@ -145,8 +146,12 @@ gensim==3.6.0
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 gmpy2 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/croot-muov7gw1/gmpy2_1645462616268/work
 google==3.0.0
-google-api-core==1.34.0
+google-ai-generativelanguage==0.6.15
+google-api-core==2.24.1
+google-api-python-client==2.160.0
 google-auth==2.21.0
+google-auth-httplib2==0.2.0
+google-generativeai==0.8.4
 googleapis-common-protos==1.59.1
 gradio==4.22.0
 gradio_client==0.13.0
@@ -160,6 +165,7 @@ h5py @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_daxwd
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 holoviews @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2f4ped95n0/croot/holoviews_1676372883032/work
 httpcore==1.0.7
+httplib2==0.22.0
 httptools==0.6.4
 httpx==0.28.1
 huggingface-hub==0.21.4
@@ -300,6 +306,7 @@ preshed==3.0.9
 prometheus-client @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_25sgeyk0j5/croots/recipe/prometheus_client_1659455103277/work
 prompt-toolkit @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0blbsngvis/croot/prompt-toolkit_1672387317724/work
 Protego @ file:///tmp/build/80754af9/protego_1598657180827/work
+proto-plus==1.26.0
 protobuf==3.20.3
 psutil @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1310b568-21f4-4cb0-b0e3-2f3d31e39728k9coaga5/croots/recipe/psutil_1656431280844/work
 psycopg2==2.9.10
@@ -458,7 +465,8 @@ uc-micro-py==1.0.3
 ujson @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_72fbb42e-3a51-4c00-94eb-4f9b77e34df43ubvg1xz/croots/recipe/ujson_1657544926230/work
 Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
 unstructured==0.10.18
-urllib3==2.3.0
+uritemplate==4.1.1
+urllib3==1.26.20
 uvicorn==0.34.0
 uvloop==0.21.0
 validators==0.22.0
